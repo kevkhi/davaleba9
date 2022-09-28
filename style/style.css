@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+main{
+    margin-left: 500px;
+}
+.fix{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover}
+body{
+    background-image: url(../surati/bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.produqti{
+color: aliceblue;
+font-size: 30px;
+text-align: center;
+}
+.payment{
+    width: 750px;
+ 
+}
+.payment input, .payment textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 14px;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+  
+}
+
+.shekveta{
+    
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    width: 750px;
+    height: 100px;
+    background-color: black;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+
+    
+.payment input[type="submit"]{
+    margin-top: 50px;
+    background-color: rgba(1, 175, 140, 1);
+    cursor: pointer;
+}
+
+
+.container{
+    position: relative;
+ user-select: none;
+ cursor: pointer;
+ font-size: 20px;
+ margin-left: 100px;
+}
+.container input{
+
+ position: absolute;
+ opacity: 0;
+ cursor: pointer;
+}
+.chekmark{
+    width: 30px; 
+    height: 30px;
+    
+    position: absolute;
+
+    background-color: #eee;
+}
+.chekmark:hover{
+    background-color: gray
+}
+.container input:checked~.chekmark {
+    background-color: #2196F3;
+}
+
+.chekmark:after{
+content: "";
+position: absolute;
+display: none;
+}
+
+
+.container input:checked~.chekmark:after {
+    display: block;
+    
+  }
+  .container .checkmark:after {
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+}
+
+.gayidva{
+    margin-top: 50px;
+    width: 750px;
+    height: 394px;
+    background-color: black; 
+    border-radius: 25px;
+}
+.menejeri{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+.dro{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 50px;
+}
+.madloba{
+    color: white;
+    text-align: center;
+}
+.fasdakleba{
+    width: 750px; 
+    height: 70px;
+    border-radius: 25px;
+}
+footer{
+    margin-left: 500px;
+    margin-top: 200px;
+
+}
+footer input{
+    width: 100%;
+    height: 100%;
+    background-color: yellow; */
+    border-radius: 25px;
+}
+footer input:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
